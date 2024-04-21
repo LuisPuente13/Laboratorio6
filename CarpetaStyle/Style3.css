@@ -13,17 +13,31 @@
     border-radius: 12px;
     border: 3px solid black;
 }
-/* Estilos para la imagen */
-img {
+.Boots {
+    margin: 10px;
+}
+.Boots .ImgCarr {
+    width: 300px;
+    height: 300px;
+}
+
+  .carousel-item img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    border-radius: 150px;
+  }
+
+.ParIzqCar {
+background-color: black;
+border-radius: 35px;
 }
-/* Estilos para el texto grande */
-.texto-grande {
+.ParDerCar {
+    background-color:rgb(233, 11, 11);
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+    border-radius: 20px;
 }
+
+.botDesp {
+    text-align: center;
+}
+
